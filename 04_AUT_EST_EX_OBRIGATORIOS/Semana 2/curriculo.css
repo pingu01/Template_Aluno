@@ -4,7 +4,8 @@
 
 #main{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	text-align: center
+	text-align: center;
+	
 }
 
 #descrição{
@@ -20,9 +21,10 @@
 h1{	
 	background-color: black;
 	color: aliceblue;
+
 }
 
-h2{
+#informação{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	background-color: black;
 	color: aliceblue;
