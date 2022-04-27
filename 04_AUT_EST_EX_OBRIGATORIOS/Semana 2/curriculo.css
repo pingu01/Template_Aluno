@@ -1,0 +1,29 @@
+﻿/************************************************************************************************
+ SITE WEB
+************************************************************************************************/
+
+#main{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center
+}
+
+#descrição{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+#exp{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h1{	
+	background-color: black;
+	color: aliceblue;
+}
+
+h2{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: black;
+	color: aliceblue;
+}
