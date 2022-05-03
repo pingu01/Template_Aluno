@@ -1,0 +1,41 @@
+﻿/************************************************************************************************
+ SITE WEB
+************************************************************************************************/
+
+@font-face {
+	font-family: 'TypeWriter';
+	src: url('fonts/JMH\ Typewriter-Black.otf') format('opentype'), url('fonts/JMH\ Typewriter-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+#main{
+	font-family: 'TypeWriter', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	
+}
+
+#descrição{
+	font-family: 'TypeWriter', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+#exp{
+	font-family: 'TypeWriter', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h1{	
+	background-color: black;
+	color: aliceblue;
+
+}
+
+#informação{
+	font-family: 'TypeWriter', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: black;
+	color: aliceblue;
+}
+
+.fundo{
+	background-color: beige;
+}
