@@ -10,6 +10,7 @@ function contaNotas(){
     //total de notas usadas
     var total = 0
     for (let i = 0; i < 7; i++){
+        //enquanto o valor da nota do indice [i] for menor que o preço, vai adicionar uma nota para o respectivo valor usado, e adicionar 1 ao total de notas
         while(notas[i] <= price){
             price = price - notas[i];
             quantidadeNotas[i] +=1

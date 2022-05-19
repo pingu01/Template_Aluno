@@ -12,6 +12,7 @@ function Operation(){
 
 function Calcular(x,y,op){
     let result;
+    //o eval() transforma uma string em um código javascript, para esse caso, ele funciona muito bem
     result = eval(x + op + y);
     return result;
 }
