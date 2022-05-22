@@ -1,5 +1,5 @@
 function bubbleSort() {
-    //
+    // o método split separa os valores identificados pelo .value e os transforma em valores de uma array
         var num = document.getElementById("numbers").value.split(",")
         var length = num.length;
         for (var i = 0; i < length; i++) {

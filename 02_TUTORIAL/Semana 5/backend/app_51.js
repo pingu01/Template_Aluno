@@ -14,7 +14,7 @@ res.statusCode = 200;
 //res.setHeader('Content-Type', 'text/html');
 res.setHeader('Access-Control-Allow-Origin', '*');
 var db = new sqlite3.Database(DBPATH);
-var sql = 'SELECT * FROM tbUser WHERE userId = 1';
+var sql = 'SELECT * FROM tbUser WHERE userId = 2';
 db.get(sql, [], (err, row) => {
     if (err) {
     throw err;
