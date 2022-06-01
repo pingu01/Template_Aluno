@@ -12,9 +12,12 @@
 </head>
 
 <body>
-    <h1>Escreva seu número de telefone</h1>
-    <input type="text" id="cel">
-    <button></button>
+    <h1>Digite seu número de celular seguindo o modelo</h1>
+    <form action="/action_page.php">
+        <input type="cel" id="cel" name="celular" placeholder="(99)99999-9999" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}">
+        <p>Modelo : (99)99999-9999</p>
+        <input type="submit">
+    </form>
 </body>
 
 </html>
