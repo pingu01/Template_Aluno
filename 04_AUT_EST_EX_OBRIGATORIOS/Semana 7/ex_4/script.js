@@ -16,7 +16,7 @@ function calcular(){
     } else if(pessoas > 50 && periodo == 2){
         desconto = 0.2;
     }
-
+    //imprime o valor final no documento na div referenciada
     var valorFinal = valor - (valor * desconto);
     document.getElementById("result").innerHTML = valorFinal;
     console.log(valorFinal);
