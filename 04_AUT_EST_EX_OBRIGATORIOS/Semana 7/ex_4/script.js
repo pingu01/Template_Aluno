@@ -10,7 +10,7 @@ function calcular(){
     } else if(periodo == 2){
         valor = 100;
     }
-    //ve a quantidade de pessoas para determinar o desconto
+    //ve a quantidade de pessoas para determinar o desconto e o periodo
     if(pessoas > 50 && periodo == 1){
         desconto = 0.4;
     } else if(pessoas > 50 && periodo == 2){

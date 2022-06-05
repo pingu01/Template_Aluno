@@ -11,13 +11,14 @@
     <script src="./script.js"></script>
 </head>
 
-<body><!--- O pattern não deixa que o usuário envie um dado com um modelo diferente do que está nele-->
-    <h1>Digite seu número de celular seguindo o modelo</h1>
-    <form action="/action_page.php">
-        <input type="cel" id="cel" name="celular" placeholder="(99)99999-9999" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}">
-        <p>Modelo : (99)99999-9999</p>
-        <input type="submit">
-    </form>
+<body>
+    <div class="text-center">
+        <h1> Informe a quantidade de alunos</h1>
+        <input type="text" id="quantidade">
+        <button onclick="inputAlunos()">Criar campos</button>
+        <div id="campos"></div>
+        <div id="medias"></div>
+    </div>
 </body>
 
 </html>
