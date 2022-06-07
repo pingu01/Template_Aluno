@@ -9,10 +9,11 @@ const DBPATH = 'curriculo.db';
 const bodyParser = require('body-parser');
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
 app.use(express.static("../frontend/."));
+app.use(express.static("./"));
 app.use(express.json());
 
 // Retorna todos registros (é o R do CRUD - Read)
-app.get('/user', (req, res) => {
+app.get('/teste', (req, res) => {
     res.statusCode = 200;
     res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
   
