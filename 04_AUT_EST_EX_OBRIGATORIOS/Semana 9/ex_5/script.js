@@ -8,9 +8,11 @@ function primos() {
         for (let j = 2; j < i; j++) {//verifica se o numero é divisivel por um numero menor que ele
             if (i % j == 0) {//se o numero for divisivel, incrementa o contador
                 control += 1;
+                //depois de incrementar o contador, volta ao inicio do for e zera o contador
                 break;
             }
         }
+        //quando não houver divisores, o numero é primo e é exibido
         if (control == 0 && i > 1) {
             console.log(i);
             document.getElementById("resultado").innerHTML = i + '<br>'
